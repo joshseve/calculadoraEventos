@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title> Calculadora </title>
+	<script type="text/javascript" scr="calculadora.js"></script>
+</head>
+
+<style type="text/css">
+
+input[type="button"], input[type="text"]{
+	width: 100%;
+	height: 100%;
+	font-size: 30px;
+}
+
+table, form{
+	width: 500px;
+	height: 50px;
+	margin: 0 auto;
+}
+
+</style>
+
+
+<body>
+
+<form name="formulario">
+
+	<h1> 
+		Mi calculadora
+	</h1>
+
+	<table>
+		<tr>
+			<td colspan="5"></td><input type="text" name="valores" id="valores" onkeypress="return quieroNumeros(event)"></td>
+		</tr>
+		<tr>
+			<td><input type="button" value="7"></td>
+			<td><input type="button" value="8"></td>
+			<td><input type="button" value="9"></td>
+			<td><input type="button" value="+"></td>
+			<td><input type="button" value="-"></td>
+		</tr>
+
+		<tr>
+			<td><input type="button" value="4"></td>
+			<td><input type="button" value="5"></td>
+			<td><input type="button" value="6"></td>
+			<td><input type="button" value="*"></td>
+			<td><input type="button" value="7"></td>
+		</tr>
+
+		<tr>
+			<td><input type="button" value="1"></td>
+			<td><input type="button" value="2"></td>
+			<td><input type="button" value="3"></td>
+			<td><input type="button" value="<-"></td>
+			<td><input type="button" value="C"></td>
+		</tr>
+
+		<tr>
+			<td colspan="2"><input type="button" value="0"></td>
+			<td></td>
+			<td colspan="2"><input type="button" value="="></td>
+		</tr>
+
+
+
+
+	</table>
+
+
+</body>
+</html>
